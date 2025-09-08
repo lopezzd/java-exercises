@@ -1,4 +1,5 @@
 import java.time.Year;
+import java.util.Objects;
 import java.util.regex.Pattern;
 
 public class Veiculos {
@@ -14,20 +15,11 @@ public class Veiculos {
     private static final Pattern PADRAO_NOVO   = Pattern.compile("^[A-Z]{3}[0-9][A-Z][0-9]{2}$");
 
 
-    public Veiculos(String placa, Year ano, String modelo, Cor cor,  boolean ehPlacaNova) {
-        setPlaca(placa);
-        setAno(ano);
-        setModelo(modelo);
-        setCor(cor);
-        setehPlacaNova(ehPlacaNova);
-    }
-
     public Veiculos(String placa, Year ano, String modelo, Cor cor) {
         setPlaca(placa);
         setAno(ano);
         setModelo(modelo);
         setCor(cor);
-        setehPlacaNova(true);
     }
 
     public Veiculos(String placa, Year ano, String modelo) {
@@ -35,7 +27,6 @@ public class Veiculos {
         setAno(ano);
         setModelo(modelo);
         setCor(Cor.PRATA);
-        setehPlacaNova(true);
     }
 
     public String getPlaca() { return this.placa; }
@@ -47,19 +38,23 @@ public class Veiculos {
 
         String upperPlaca = placa.toUpperCase();
 
-        if (PADRAO_ANTIGO.matcher(upperPlaca).matches() && !this.ehPlacaNova) {
+
+        if (PADRAO_ANTIGO.matcher(upperPlaca).matches()) {
             this.placa = upperPlaca;
-        } else if (PADRAO_NOVO.matcher(upperPlaca).matches() && this.ehPlacaNova) {
+            this.ehPlacaNova = false;
+        } else if (PADRAO_NOVO.matcher(upperPlaca).matches()) {
             this.placa = upperPlaca;
+            this.ehPlacaNova = true;
         } else {
             throw new IllegalArgumentException("Placa inválida: " + placa);
         }
+
     }
 
     public Year getAno() { return ano; }
 
     public void setAno(Year ano) {
-        ano = ano;
+        this.ano = ano;
     }
 
     public String getModelo() { return modelo; }
@@ -77,17 +72,24 @@ public class Veiculos {
         this.cor = cor;
     }
 
-
-
     public boolean getehPlacaNova() { return ehPlacaNova; }
-
-    public void setehPlacaNova(boolean ehPlacaNova) {
-        if(ehPlacaNova == true || ehPlacaNova == false) this.ehPlacaNova = ehPlacaNova;
-    }
 
     @Override
     public String toString() {
-        return "Coco";
+        return "Placa: " + this.placa + ", Ano: " + this.ano +
+                ", Modelo: " + this.modelo + ", Cor: " + this.cor +
+                ", Mercosul: " + (this.ehPlacaNova ? "Placa nova" : "Placa antiga");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        Veiculos veiculos = (Veiculos) o;
+        return Objects.equals(placa, veiculos.placa);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(placa);
     }
 }
-

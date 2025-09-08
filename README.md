@@ -1,51 +1,36 @@
-# java-exercises
-> Exercises from Paradigm and Object-Oriented Programming classes
+# Exercícios de Java
 
-Este repositório reúne uma coleção de exercícios em Java desenvolvidos com o objetivo de praticar conceitos fundamentais da linguagem e aprimorar minhas habilidades em programação.
-A proposta é consolidar a base teórica por meio da prática, explorando desde estruturas simples até tópicos mais avançados da linguagem.
+Este repositório contém uma coleção de exercícios em Java, desenvolvidos para praticar e aprimorar conceitos fundamentais da linguagem e da programação orientada a objetos.
 
-## Conteúdos abordados
+## Exercícios
 
-Entrada e saída de dados
+| Exercício | Descrição |
+| :--- | :--- |
+| [**ex01**](./ex01/) | Formata o nome de um autor para o padrão de referência bibliográfica (SOBRENOME, Nome). |
+| [**ex02**](./ex02/) | Calcula o orçamento para instalação de piso em uma sala, considerando pilares e desperdício de material. |
+| [**ex03**](./ex03/) | Demonstra o tratamento de exceções comuns em Java, como `NumberFormatException` e `ArithmeticException`. |
+| [**ex04**](./ex04/) | Implementa as classes `Produto` e `IngressoEvento` com validações, encapsulamento e lógica de negócio. |
+| [**ex05**](./ex05/) | Implementa a classe `Veiculo` com validação de placas (antiga e Mercosul), `enum` e sobreposição de `equals()` e `hashCode()`. |
 
-Estruturas de controle (condicionais e laços)
+## 🚀 Como Executar
 
-Arrays e Strings
+Cada exercício está configurado como um projeto IntelliJ IDEA independente.
 
-Programação Orientada a Objetos (classes, objetos, herança, polimorfismo)
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/lopezzd/java-exercises.git
+    ```
+2.  Abra a pasta do exercício desejado (ex: `ex01/`) em sua IDE (IntelliJ, Eclipse, VS Code).
+3.  Localize e execute o arquivo principal (geralmente `Main.java` ou uma classe de teste com um método `main`).
 
-Tratamento de exceções
+## 🛠️ Tecnologias
 
-Manipulação de arquivos
+- **Java (JDK 17+)**
+- **IntelliJ IDEA**
 
-Estruturas de dados com Collections Framework
+## 👥 Colaboradores
 
-🛠️ Tecnologias utilizadas
+Agradecimentos aos colaboradores que participaram no desenvolvimento destes exercícios, em sua maioria feitos em sala.
 
-Java (recomendado JDK 17 ou superior)
-
-IDE de sua preferência (IntelliJ, Eclipse, VS Code, etc.)
-
-Como executar
-
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/java-exercises.git
-
-
-Abra o projeto na sua IDE ou terminal.
-
-Compile e execute o exercício desejado:
-
-javac Main.java
-java Main
-
-Observações
-
-Cada exercício está organizado em pastas ou arquivos específicos.
-
-O repositório será atualizado periodicamente com novas soluções.
-
-Contribuições
-
-Este projeto é voltado para estudo pessoal, mas sugestões e melhorias são sempre bem-vindas!
+| [<img style="width:150px; height:150px; object-fit:cover; object-position:center; border-radius:8px;" loading="lazy" src="./ex05/assets/Gabriel%20Hemo.jpeg" width=115><br><sub>Gabriel Hemo Gonçalves Santos</sub>](https://github.com/hemogabriel) | [<img style="width:150px; height:150px; object-fit:cover; object-position:center; border-radius:8px;" loading="lazy" src="./ex05/assets/Jo%C3%A3o%20Henrique%20Lopes.jpeg" width=115><br><sub>João Henrique Lopes Divino</sub>](https://github.com/lopezzd) | [<img style="width:150px; height:150px; object-fit:cover; object-position:center; border-radius:8px;" loading="lazy" src="./ex05/assets/Marcus%20Vinicius%20Lopes.jpeg" width=115><br><sub>Marcus Vinicius Lopes Divino</sub>](https://github.com/marcuslopes06) |
+| :---: | :---: | :---: |
