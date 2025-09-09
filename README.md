@@ -12,7 +12,7 @@ Este repositório contém uma coleção de exercícios em Java, desenvolvidos pa
 | [**ex04**](./ex04/) | Implementa as classes `Produto` e `IngressoEvento` com validações, encapsulamento e lógica de negócio. |
 | [**ex05**](./ex05/) | Implementa a classe `Veiculo` com validação de placas (antiga e Mercosul), `enum` e sobreposição de `equals()` e `hashCode()`. |
 
-## 🚀 Como Executar
+## Como Executar
 
 Cada exercício está configurado como um projeto IntelliJ IDEA independente.
 
@@ -23,12 +23,12 @@ Cada exercício está configurado como um projeto IntelliJ IDEA independente.
 2.  Abra a pasta do exercício desejado (ex: `ex01/`) em sua IDE (IntelliJ, Eclipse, VS Code).
 3.  Localize e execute o arquivo principal (geralmente `Main.java` ou uma classe de teste com um método `main`).
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Java (JDK 17+)**
 - **IntelliJ IDEA**
 
-## 👥 Colaboradores
+## Colaboradores
 
 Agradecimentos aos colaboradores que participaram no desenvolvimento destes exercícios, em sua maioria feitos em sala.
 
