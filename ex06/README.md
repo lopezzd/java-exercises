@@ -1,3 +1,9 @@
+# Exercício 06 | Composição de Objetos - Computador
+
+Crie um conjunto de classes em Java que modele a composição de um Computador.
+
+---
+
 1. **Classe Computador**
 - Atributos:
   - marca (`String`)

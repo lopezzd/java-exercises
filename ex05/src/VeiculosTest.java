@@ -1,5 +1,7 @@
 import java.time.Year;
 
+// Exercícios presente em www.github.com/lopezzd/java-exercises
+
 public class VeiculosTest {
     public static void main(String[] args) {
         Veiculos civic = new Veiculos("ABC1234", Year.of(2010), "Civic", Cor.PRETO);

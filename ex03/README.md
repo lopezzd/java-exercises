@@ -1,6 +1,8 @@
-# Exercicio 2 - Tratamento de Exceções
+# Exercicio 2 | Tratamento de Exceções
 
 Implemente um programa em Java que faça o seguinte:
+
+---
 
 1. **Leia um número inteiro** do usuário.
 

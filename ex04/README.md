@@ -1,4 +1,4 @@
-# Exercício 1 - Classe Produto
+# Exercício 04 | Classe Produto
 
 Crie uma classe Produto com os seguintes atributos **privados**:
 

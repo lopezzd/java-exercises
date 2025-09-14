@@ -1,4 +1,4 @@
-# Exercicio 1 - String
+# Exercicio 01 | String
 Você está desenvolvendo um sistema para um editor de livros. 
 Uma das funções do sistema é gerar a referência bibliográfica dos autores no formato "SOBRENOME, Nome" a partir do nome completo digitado pelo usuário.
 

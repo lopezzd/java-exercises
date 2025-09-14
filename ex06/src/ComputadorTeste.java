@@ -1,6 +1,8 @@
+// Exercício presente em www.github.com/lopezzd/java-exercises
+
 public class ComputadorTeste {
     public static void main(String[] args) {
-
+        
         Processador ryzen = new Processador(2.4d, "AMD" );
         MemoriaRAM memoria = new MemoriaRAM(8, "DDR4");
 

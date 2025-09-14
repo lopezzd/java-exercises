@@ -1,4 +1,4 @@
-# Exercício Classe Veículos
+# Exercício 05 | Classe Veículos
 
 Crie uma classe em Java chamada **Veiculo**. Essa classe deverá possuir os seguintes requisitos:
 

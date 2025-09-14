@@ -1,7 +1,9 @@
-# Exercicio 2 - Math - Orçamento de Piso para Reforma
+# Exercicio 02 | Math - Orçamento de Piso para Reforma
 
 Uma empresa de reformas precisa de um sistema que calcule o **orçamento de piso** para cobrir uma sala retangular.
 A sala pode conter pilares circulares que **não serão revestidos**. Além disso, é necessário considerar **um percentual de desperdício** de material e calcular quantas caixas de piso serão necessárias.
+
+---
 
 ## O que fazer
 
