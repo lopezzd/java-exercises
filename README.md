@@ -11,6 +11,8 @@ Este repositório contém uma coleção de exercícios em Java, desenvolvidos pa
 | [**ex03**](./ex03/) | Demonstra o tratamento de exceções comuns em Java, como `NumberFormatException` e `ArithmeticException`. |
 | [**ex04**](./ex04/) | Implementa as classes `Produto` e `IngressoEvento` com validações, encapsulamento e lógica de negócio. |
 | [**ex05**](./ex05/) | Implementa a classe `Veiculo` com validação de placas (antiga e Mercosul), `enum` e sobreposição de `equals()` e `hashCode()`. |
+| [**ex06**](./ex06/) | Modela a composição de um computador, com classes para `PlacaMae`, `Processador` e `MemoriaRAM`. |
+| [**ex07**](./ex07/) | Implementa a ordenação de objetos `Aluno` com base na média, nome e RA, utilizando a interface `Comparable`. |
 
 ## Como Executar
 
