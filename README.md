@@ -13,6 +13,7 @@ Este repositório contém uma coleção de exercícios em Java, desenvolvidos pa
 | [**ex05**](./ex05/) | Implementa a classe `Veiculo` com validação de placas (antiga e Mercosul), `enum` e sobreposição de `equals()` e `hashCode()`. |
 | [**ex06**](./ex06/) | Modela a composição de um computador, com classes para `PlacaMae`, `Processador` e `MemoriaRAM`. |
 | [**ex07**](./ex07/) | Implementa a ordenação de objetos `Aluno` com base na média, nome e RA, utilizando a interface `Comparable`. |
+| [**ex08**](./ex08/) | Cria um mini-sistema de eventos, com as classes `Organizador` e `Evento`, implementando `Comparable` e `Exceptions`. |
 
 ## Como Executar
 
