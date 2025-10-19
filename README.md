@@ -4,6 +4,8 @@ Este repositório contém uma coleção de exercícios em Java, desenvolvidos pa
 
 ## Exercícios
 
+### Lógica e Princípios de Java
+
 | Exercício | Descrição |
 | :--- | :--- |
 | [**ex01**](./ex01/) | Formata o nome de um autor para o padrão de referência bibliográfica (SOBRENOME, Nome). |
@@ -15,6 +17,12 @@ Este repositório contém uma coleção de exercícios em Java, desenvolvidos pa
 | [**ex07**](./ex07/) | Implementa a ordenação de objetos `Aluno` com base na média, nome e RA, utilizando a interface `Comparable`. |
 | [**ex08**](./ex08/) | Cria um mini-sistema de eventos, com as classes `Organizador` e `Evento`, implementando `Comparable` e `Exceptions`. |
 | [**ex09**](./ex09/) | Modela um sistema de reservas de hotel, com validação de datas, tratamento de valores monetários e `enums`. |
+
+### Foco em Programação Orientada a Objetos (OOP)
+
+| Exercício | Descrição |
+| :--- | :--- |
+| [**ex10**](./ex10/) | Modela um sistema imobiliário, com as classes `Imovel`, `Casa`, `Apartamento` e `Terreno`, aplicando conceitos de herança e polimorfismo. |
 
 ## Como Executar
 
